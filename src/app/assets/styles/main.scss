@@ -1,0 +1,22 @@
+.sect {
+  &__title {
+    color: #000;
+    font-family: "Nafa";
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  &__txt {
+    color: #000;
+    font-family: "Josefin";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+
+    &--big{
+        font-size: 21px; 
+    }
+  }
+}

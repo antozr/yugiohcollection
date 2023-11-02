@@ -1,3 +1,7 @@
+@use "./assets/styles/main.scss";
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,4 +15,8 @@
 @font-face {
     font-family: 'Josefin';
     src: url(./assets/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Nafa';
+    src: url(./assets/fonts/NafasManualRegular.otf);
 }
