@@ -9,6 +9,7 @@ const BoxIntro = ({ title1, txt1, link1, src1, link2, src2,srcImg }) => {
         src={srcImg}
         alt="Voici une représentation de collection de carte Yu Gi Oh."
         className="boxIntro__img"
+        loading="lazy"
       />
       <div className="boxIntro__box">
         <h1 className="sect__title">{title1}</h1>
