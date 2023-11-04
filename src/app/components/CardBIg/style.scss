@@ -1,0 +1,95 @@
+.bigCard {
+  width: 60vw;
+  height: 50vh;
+  max-height: 414px;
+  background-color: #cfc9a9;
+  border-radius: 8px;
+  padding: 6px 5px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+
+  &__boxTitle1 {
+    width: 100%;
+    height: 48px;
+    background: #1d1d1d;
+    border-radius: 4px 4px 0px 0px;
+    padding: 4px 4px 4px 6px;
+    display: flex;
+
+    & > h2 {
+      color: #cfc9a9;
+      font-size: 38px;
+    }
+  }
+
+  //// for the main content box with images and the standart informations
+  &__main {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(100% - ((48px * 2) + 12px));
+}
+&__boxImg{
+    width: calc(50% - 3px);
+    height: 100%;
+    overflow: hidden;
+
+
+}
+&__img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+&__boxContent{
+    width: calc(50% - 3px);
+    height: 100%;
+    background: #FFF6F1;
+    padding: 6px;
+}
+
+&__title2{
+    font-size: 18px;
+    font-family: "JosefinItalic";
+    font-weight: 500;
+    line-height: 120%;
+    
+}
+
+  //// for the box with two button and the counter
+  &__numBox {
+    height: 48px;
+    width: 100%;
+    background-color: #1d1d1d;
+    border-radius: 0 0 4px 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__btnNum {
+    color: #cfc9a9;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    height: 100%;
+    width: 30%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+  }
+  &__numCard {
+    color: #fff6f1;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+  }
+}
