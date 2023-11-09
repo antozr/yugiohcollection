@@ -2,6 +2,7 @@ import "./style.scss";
 import React from "react";
 
 const BigCard = () => {
+  
   return (
     <div className="bigCard">
       <div className="bigCard__boxTitle1">

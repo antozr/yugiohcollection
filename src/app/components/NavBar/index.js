@@ -128,7 +128,7 @@ const Navbar = () => {
           <li className="nav__el">
             <Link
               href={el.link}
-              key={key}
+              key={el.index}
               className="nav__link"
               replace={true}
               aria-label={"Voici un lien qui se dirige vers " + el.name}
